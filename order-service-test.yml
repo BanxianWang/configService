@@ -39,5 +39,5 @@ spring:
     port: 6379
     timeout: 2000
 
-env:test
-branch:master
+env: test
+branch: master
