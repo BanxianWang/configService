@@ -44,11 +44,7 @@ spring:
     username: root
     password: a214078
     
-management:
-      endpoints:
-        web:
-          exposure:
-            include: "*"    
+
 
 env: test
 branch: master
