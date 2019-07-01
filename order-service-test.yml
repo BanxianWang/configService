@@ -1,5 +1,5 @@
 server:
-  port: 8782
+  port: 8781
 
 #设置负载均衡策略
 PRODUCT-SERVICE:
