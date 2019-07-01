@@ -38,6 +38,17 @@ spring:
     host: 47.101.38.34
     port: 6379
     timeout: 2000
+  rabbitmq:
+    host: 192.168.136.137
+    port: 5672
+    username: root
+    password: a214078
+    
+management:
+      endpoints:
+        web:
+          exposure:
+            include: "*"    
 
 env: test
 branch: master
