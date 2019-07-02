@@ -43,6 +43,7 @@ spring:
     port: 5672
     username: root
     password: a214078
+    timeout: 2000
     
 
 
