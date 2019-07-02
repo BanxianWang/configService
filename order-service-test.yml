@@ -38,13 +38,7 @@ spring:
       host: 47.101.38.34
       port: 6379
       timeout: 2000
-  rabbitmq:
-      host: 192.168.136.138
-      port: 5672
-      username: root
-      password: a214078
-      connection-timeout: 8000
-      virtual-host: /
+
 
     
 
