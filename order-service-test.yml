@@ -14,7 +14,7 @@ feign:
     config:
       default:
         connectTimeout: 2000
-        readTimeout: 8000
+        readTimeout: 2000
         
         
 hystrix:
@@ -23,7 +23,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 8000
+            timeoutInMilliseconds: 2000
 
 
 management:
@@ -36,5 +36,5 @@ management:
     
 
 
-env: test
+env: test1
 branch: master
