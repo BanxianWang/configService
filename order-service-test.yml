@@ -36,5 +36,5 @@ management:
     
 
 
-env: test1
+env: test
 branch: master
