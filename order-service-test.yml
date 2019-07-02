@@ -34,10 +34,10 @@ management:
         
 spring:
   redis:
-      database: 0
-      host: 47.101.38.34
-      port: 6379
-      timeout: 2000
+    database: 0
+    host: 47.101.38.34
+    port: 6379
+    timeout: 2000
 
 
     
