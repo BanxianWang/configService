@@ -43,7 +43,7 @@ spring:
       port: 5672
       username: root
       password: a214078
-      connection-timeout: 5000
+      connection-timeout: 8000
       virtual-host: /
 
     
