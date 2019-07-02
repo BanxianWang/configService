@@ -14,7 +14,7 @@ feign:
     config:
       default:
         connectTimeout: 2000
-        readTimeout: 2000
+        readTimeout: 5000
         
         
 hystrix:
@@ -23,7 +23,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 2000
+            timeoutInMilliseconds: 5000
 
 
 management:
@@ -31,6 +31,20 @@ management:
     web:
       exposure:
         include: "*"
+        
+spring:
+  redis:
+    database: 0
+    host: 47.101.38.34
+    port: 6379
+    timeout: 2000
+  rabbitmq:
+    host: 192.168.136.138
+    port: 5672
+    username: root
+    password: a214078
+    connection-timeout: 5000
+    virtual-host: /
 
 
     
